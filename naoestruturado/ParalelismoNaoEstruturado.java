@@ -19,7 +19,7 @@ public class ParalelismoNaoEstruturado {
                             * Math.cos(valor - i)
                             * Math.sqrt(Math.abs(valor) + 1);
         }
-        return resultado;git init
+        return resultado;
     }
 
 

@@ -196,7 +196,7 @@ java --enable-preview -cp bin experimentos.ExperimentoRunner > resultados.txt
 Os valores de "Resultado" entre as versões podem diferir levemente na última casa decimal (por exemplo, `...528295E7` vs `...528634E7`). Isso não é um erro: como cada versão soma os resultados parciais das threads em uma ordem diferente (dependendo de qual thread termina primeiro), e a soma de números `double` não é associativa (`(a+b)+c` pode arredondar de forma ligeiramente diferente de `a+(b+c)`), pequenas variações de arredondamento são esperadas e não indicam falha na paralelização.
 
 ## Diagrama de arquitetura
-![Untitled diagram-2026-09-20-160748.png](../Untitled%20diagram-2026-09-20-160748.png)
+<img width="6192" height="3650" alt="diagrama" src="https://github.com/user-attachments/assets/c98c6b5c-1bca-44ea-b1f5-48cd1ec36b77" />
 
 ## Resultados dos experimentos
 
